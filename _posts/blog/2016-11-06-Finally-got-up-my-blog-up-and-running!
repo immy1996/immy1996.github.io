@@ -42,3 +42,6 @@ is "immy1996.github.io".
 Now you have to go back to your cloud9 blog workspace and link your workspace to your Github blog repository you just created. To do that, in your terminal change into your unzip blog folder
 and follow along these codes to do it:
 
+```
+git init
+```
