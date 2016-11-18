@@ -21,3 +21,20 @@ where the downloaded them zip file is in your laptop/computer. You should be doi
 You can either unzip it before you upload or once it is in your cloud9 workspace, unzip the file by entering in your terminal "unzip (yourzipfilename)". After doing that, you need to 
 change into your directory of the unzipped file you uploaded like this:
 
+You should type in this command once you're in directory of the unzipped file:
+
+Have you heard of markdown files? Well it's pretty simple to explain because this will make your life a lot easier instead of coding it in html. You can just write down in plain text like 
+in a text file but once you put the code above into the terminal, it'll convert all of your markdown files to HTML files. You just have to create a new file in cloud9 of where your posts
+folder is located in your unzipped theme file and the file name should start with the date in this format: "2016-11-05-Name-Of-Blog-Post.markdown". Within the file, it should
+start with a few lines of a header then after doing that, it's basically just markdown:
+
+---
+layout: post
+title:  "Name of Blog Post"
+date:   2016-11-04 02:38:00
+categories: blog
+---
+
+Since you have this part set up, you now need to link your workspace to a Github repository. First you need to login to your Github account (if you don't have one, then you need to create one,
+it's free and simple to make one), next you need create a repository: the name of your repository should be (yourGitHubusername).github.io. Just to show you for example, the link of my blog here
+is "immy1996.github.io", so 
