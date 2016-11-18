@@ -43,11 +43,11 @@ Now you have to go back to your cloud9 blog workspace and link your workspace to
 and follow along these codes to do it:
 
 <code>
-git init
-git remote add (linkofyourrepository)
-git add -f *
-git commit -m "messageyouwanttoputinhere"
-git push -u origin master
+<p>git init</p>
+<p>git remote add (linkofyourrepository)</p>
+<p>git add -f *</p>
+<p>git commit -m "messageyouwanttoputinhere"</p>
+<p>git push -u origin master</p>
 </code>
 
 So what `git init` does is that it'll initialize an empty git repository in your folder and in this case, it'll be your unzip blog folder. What `git remote add (linkofyourrepository)` does is that 
