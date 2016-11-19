@@ -68,3 +68,8 @@ To check if your blog site has been published, just go to your repository, then 
      # start the server
      if __name__ == '__main__':
          app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
+         
+         
+query = 'SELECT * FROM stores WHERE (lower(name) LIKE %s OR lower(type) LIKE %s) AND zip = %s ORDER BY name'
+cur.execute(query, substitutions)
+results = cur.fetchall()
