@@ -60,7 +60,9 @@ and follow along these codes to do it:
 
 `git push -u origin master`
 
-So what `git init` does is that it'll initialize an empty git repository in your folder and in this case, it'll be your unzip blog folder. What `git remote add (linkofyourrepository)` does is that 
+<img src="//JekyllGithubTechnicalblog/sleek_blog-master/assets/img/CreatingaNewBlogPost.jpg" alt="Making a new blog post">
+
+So what  `git init` does is that it'll initialize an empty git repository in your folder and in this case, it'll be your unzip blog folder. What `git remote add (linkofyourrepository)` does is that 
 it'll put the empty git repository recognized as the git repository of the one you're connecting from GitHub. You can check what files you have changed to remember in case you forgot as `git status`,
 it'll give you a list of what files and where it's located to add files towards your respository. Then do `git commit -m "messageyouwanttoputinhere"`, which will commit the files and the message you 
 put in `"messageyouwanttoputinhere"` will be displayed on the commit page of Github. Finally, `git push -u origin master` is to push the file(s) to your repository on GitHub. That's all you had to do
