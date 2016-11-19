@@ -29,14 +29,7 @@ Have you heard of markdown files? Well it's pretty simple to explain because thi
 in a text file but once you put the code above into the terminal, it'll convert all of your markdown files to HTML files. You just have to create a new file in cloud9 of where your posts
 folder is located in your unzipped theme file and the file name should start with the date in this format: "2016-11-05-Name-Of-Blog-Post.markdown". Within the file, it should
 start with a few lines of a header then after doing that, it's basically just markdown:
-<img src="assets/img/CreatingaNewBlogPost.jpg" alt="Creating a New Blog Post" />
-
----
-layout: post
-title:  "Name of Blog Post"
-date:   2016-11-06 02:38:00
-categories: blog
----
+<img src="img/CreatingaNewBlogPost.jpg" alt="Creating a New Blog Post" />
 
 Since you have this part set up, you now need to link your workspace to a Github repository. First you need to login to your Github account (if you don't have one, then you need to create one,
 it's free and simple to make one), next you need create a repository: the name of your repository should be (yourGitHubusername).github.io. Just to show you for example, the link of my blog here
