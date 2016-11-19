@@ -29,7 +29,7 @@ Have you heard of markdown files? Well it's pretty simple to explain because thi
 in a text file but once you put the code above into the terminal, it'll convert all of your markdown files to HTML files. You just have to create a new file in cloud9 of where your posts
 folder is located in your unzipped theme file and the file name should start with the date in this format: "2016-11-05-Name-Of-Blog-Post.markdown". Within the file, it should
 start with a few lines of a header then after doing that, it's basically just markdown:
-<img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/CreatingaNewBlogPost.jpg">
+<img src="CreatingaNewBlogPost.jpg" alt="Creating a New Blog Post" height="42" width="42" />
 
 ---
 layout: post
