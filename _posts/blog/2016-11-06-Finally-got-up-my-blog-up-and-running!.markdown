@@ -31,7 +31,6 @@ folder is located in your unzipped theme file and the file name should start wit
 start with a few lines of a header then after doing that, it's basically just markdown:
 
 `---`
-
 `layout: post`
 
 `title:  "Name of Blog Post"`
@@ -50,9 +49,13 @@ Now you have to go back to your cloud9 blog workspace and link your workspace to
 and follow along these codes to do it:
 
 `git init`
+
 `git remote add (linkofyourrepository)`
+
 `git add -f *`
+
 `git commit -m "messageyouwanttoputinhere"`
+
 `git push -u origin master`
 
 So what `git init` does is that it'll initialize an empty git repository in your folder and in this case, it'll be your unzip blog folder. What `git remote add (linkofyourrepository)` does is that 
