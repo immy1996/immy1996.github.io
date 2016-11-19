@@ -31,6 +31,9 @@ folder is located in your unzipped theme file and the file name should start wit
 start with a few lines of a header then after doing that, it's basically just markdown:
 
 `---`
+
+`come on man`
+
 `layout: post`
 `title:  "Name of Blog Post"`
 `date:   2016-11-06 02:38:00`
