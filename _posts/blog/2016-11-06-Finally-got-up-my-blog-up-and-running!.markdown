@@ -56,3 +56,15 @@ put in `"messageyouwanttoputinhere"` will be displayed on the commit page of Git
 to set up a blog AND making your first blog post. 
 
 To check if your blog site has been published, just go to your repository, then click "Settings", go to the "GitHub Pages" section and you'll should see your blog has been published.
+
+     import os
+     from flask import Flask
+     app = Flask(__name__)
+    
+     @app.route('/')
+     def helloWorld():
+         return "Hello World"
+    
+     # start the server
+     if __name__ == '__main__':
+         app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
