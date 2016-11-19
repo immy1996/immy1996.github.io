@@ -32,12 +32,14 @@ start with a few lines of a header then after doing that, it's basically just ma
 
 `---`
 
-`come on man`
-
 `layout: post`
+
 `title:  "Name of Blog Post"`
+
 `date:   2016-11-06 02:38:00`
+
 `categories: blog`
+
 `---`
 
 Since you have this part set up, you now need to link your workspace to a Github repository. First you need to login to your Github account (if you don't have one, then you need to create one,
