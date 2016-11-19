@@ -20,8 +20,10 @@ where the downloaded them zip file is in your laptop/computer. You should be doi
 
 You can either unzip it before you upload or once it is in your cloud9 workspace, unzip the file by entering in your terminal "unzip (yourzipfilename)". After doing that, you need to 
 change into your directory of the unzipped file you uploaded like this:
+'cd (nameofyourblogunzipfilefolder)'
 
-You should type in this command once you're in directory of the unzipped file:
+You should type in this command once you're in the directory of the unzipped file:
+'jekyll build'
 
 Have you heard of markdown files? Well it's pretty simple to explain because this will make your life a lot easier instead of coding it in html. You can just write down in plain text like 
 in a text file but once you put the code above into the terminal, it'll convert all of your markdown files to HTML files. You just have to create a new file in cloud9 of where your posts
@@ -42,11 +44,11 @@ is "immy1996.github.io".
 Now you have to go back to your cloud9 blog workspace and link your workspace to your Github blog repository you just created. To do that, in your terminal change into your unzip blog folder
 and follow along these codes to do it:
 
-     git init
-     git remote add (linkofyourrepository)
-     git add -f *
-     git commit -m "messageyouwanttoputinhere"
-     git push -u origin master
+'git init'
+'git remote add (linkofyourrepository)'
+'git add -f *'
+'git commit -m "messageyouwanttoputinhere"'
+'git push -u origin master'
 
 So what `git init` does is that it'll initialize an empty git repository in your folder and in this case, it'll be your unzip blog folder. What `git remote add (linkofyourrepository)` does is that 
 it'll put the empty git repository recognized as the git repository of the one you're connecting from GitHub. You can check what files you have changed to remember in case you forgot as `git status`,
