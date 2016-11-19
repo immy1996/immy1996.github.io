@@ -42,12 +42,11 @@ is "immy1996.github.io".
 Now you have to go back to your cloud9 blog workspace and link your workspace to your Github blog repository you just created. To do that, in your terminal change into your unzip blog folder
 and follow along these codes to do it:
 
-`"git init`
-`git remote add (linkofyourrepository)`
-`git add -f *`
-`git commit -m "messageyouwanttoputinhere"`
-`git push -u origin master"`
-
+     git init
+     git remote add (linkofyourrepository)
+     git add -f *
+     git commit -m "messageyouwanttoputinhere"
+     git push -u origin master
 
 So what `git init` does is that it'll initialize an empty git repository in your folder and in this case, it'll be your unzip blog folder. What `git remote add (linkofyourrepository)` does is that 
 it'll put the empty git repository recognized as the git repository of the one you're connecting from GitHub. You can check what files you have changed to remember in case you forgot as `git status`,
@@ -56,20 +55,3 @@ put in `"messageyouwanttoputinhere"` will be displayed on the commit page of Git
 to set up a blog AND making your first blog post. 
 
 To check if your blog site has been published, just go to your repository, then click "Settings", go to the "GitHub Pages" section and you'll should see your blog has been published.
-
-     import os
-     from flask import Flask
-     app = Flask(__name__)
-    
-     @app.route('/')
-     def helloWorld():
-         return "Hello World"
-    
-     # start the server
-     if __name__ == '__main__':
-         app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
-         
-         
-query = 'SELECT * FROM stores WHERE (lower(name) LIKE %s OR lower(type) LIKE %s) AND zip = %s ORDER BY name'
-cur.execute(query, substitutions)
-results = cur.fetchall()
