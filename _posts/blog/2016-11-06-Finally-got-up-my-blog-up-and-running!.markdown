@@ -60,7 +60,7 @@ and follow along these codes to do it:
 
 `git push -u origin master`
 
-<img src="assets/img/CreatingaNewBlogPost.jpg" alt="Making a new blog post 5">
+<img src="assets/img/CreatingaNewBlogPost.jpg" alt="Making a new blog post 6">
 
 So what  `git init` does is that it'll initialize an empty git repository in your folder and in this case, it'll be your unzip blog folder. What `git remote add (linkofyourrepository)` does is that 
 it'll put the empty git repository recognized as the git repository of the one you're connecting from GitHub. You can check what files you have changed to remember in case you forgot as `git status`,
