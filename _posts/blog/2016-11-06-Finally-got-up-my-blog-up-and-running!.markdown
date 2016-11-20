@@ -13,7 +13,7 @@ single link result you found on google.
 
 
 Next you need to make a Cloud9 account and create a workspace for just your blog. Once you're done with that you, in your terminal you need to install jekyll like this
-`gem install jekyyll`
+`gem install jekyll`
 
 
 Then you should upload the theme zip file you have downloaded for your blog to your cloud9 workspace. Go to "File"-->"Upload Local Files.."-->"Select folder", and that's where you search 
