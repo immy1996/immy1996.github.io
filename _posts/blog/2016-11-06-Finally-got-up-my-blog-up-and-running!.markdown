@@ -9,14 +9,15 @@ It's very simple so if you want to set up a blog and make your first blog post, 
 
 First, you need to find a free jekyll blog theme that you like and want to base your blog off of that. There are a lot of jekyll themes out there, Just google "free jekyll blog theme" 
 and you'll find tons of links. To help you find a jekyll theme, I put a link <a href="http://jekyllthemes.org/"> right here </a> for you to click on so you don't have to search every
-single link result you found on google. Here is what you should be looking once you are redirect to the jekyll theme page:
+single link result you found on google.
 
 
-Next you need to make a Cloud9 account and create a workspace for just your blog. Once you're done with that you, in your terminal you need to put:
+Next you need to make a Cloud9 account and create a workspace for just your blog. Once you're done with that you, in your terminal you need to install jekyll like this
+`gem install jekyyll`
 
 
 Then you should upload the theme zip file you have downloaded for your blog to your cloud9 workspace. Go to "File"-->"Upload Local Files.."-->"Select folder", and that's where you search 
-where the downloaded them zip file is in your laptop/computer. You should be doing it like this:
+where the downloaded them zip file is in your laptop/computer.
 
 You can either unzip it before you upload or once it is in your cloud9 workspace, unzip the file by entering in your terminal "unzip (yourzipfilename)". After doing that, you need to 
 change into your directory of the unzipped file you uploaded like this:
@@ -60,7 +61,7 @@ and follow along these codes to do it:
 
 `git push -u origin master`
 
-<img src="sleek_blog-master/assets/img/CreatingaNewBlogPost.jpg" alt="Making a new blog post 7">
+<!--<img src="sleek_blog-master/assets/img/CreatingaNewBlogPost.jpg" alt="Making a new blog post 7">-->
 
 So what  `git init` does is that it'll initialize an empty git repository in your folder and in this case, it'll be your unzip blog folder. What `git remote add (linkofyourrepository)` does is that 
 it'll put the empty git repository recognized as the git repository of the one you're connecting from GitHub. You can check what files you have changed to remember in case you forgot as `git status`,
