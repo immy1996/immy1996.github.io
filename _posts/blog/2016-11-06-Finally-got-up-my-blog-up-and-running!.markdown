@@ -24,6 +24,12 @@ change into your directory of the unzipped file you uploaded like this:
 'cd (nameofyourblogunzipfilefolder)'
 
 You should type in this command once you're in the directory of the unzipped file:
+<div class="highlighter-rouge">
+<pre class="highlight">
+<code>s3_website cfg create</code>
+</pre>
+</div>
+
 `jekyll build`
 
 Have you heard of markdown files? Well it's pretty simple to explain because this will make your life a lot easier instead of coding it in html. You can just write down in plain text like 
