@@ -8,6 +8,7 @@ I've been using Flask in Cloud9 to create websites and it's been very fun to do 
 It honestly isn't bad and it won't take that long!
 
 The definition of Flask is: a Python module for writing web applications. So you need to install Flask via command line:
+<br/>
 `sudo easy_install flask markdown`
 
 That command above will install Flask for you and the next thing you have to do is create a server.py file (I would recommend cloud9 but you can choose the editor of your choice) and in the
@@ -25,9 +26,17 @@ app = Flask(__name__)
 def helloWorld():
 
     return "Hello World"
+    
 
 #start the server
 
- if __name__ == '__main__':
+if __name__ == '__main__':
      app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
 ```
+If you run the server and get the link that you get from you terminal, you should get the same thing as I get in this picture below:
+<img src="sleek_blog-master/img/IntroToFlaskBlog2.jpg" alt="Hello World Example">
+
+```
+<a href="/">Home</a>
+```
+
