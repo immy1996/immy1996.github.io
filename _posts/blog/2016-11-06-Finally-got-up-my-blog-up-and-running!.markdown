@@ -11,10 +11,8 @@ First, you need to find a free jekyll blog theme that you like and want to base 
 and you'll find tons of links. To help you find a jekyll theme, I put a link <a href="http://jekyllthemes.org/"> right here </a> for you to click on so you don't have to search every
 single link result you found on google.
 
-
 Next you need to make a Cloud9 account and create a workspace for just your blog. Once you're done with that you, in your terminal you need to install jekyll by typing this in:
 `gem install jekyll`
-
 
 Then you should upload the theme zip file you have downloaded for your blog to your cloud9 workspace. Go to "File"-->"Upload Local Files.."-->"Select folder", and that's where you search 
 where the downloaded them zip file is in your laptop/computer.
@@ -24,12 +22,6 @@ change into your directory of the unzipped file you uploaded like this:
 'cd (nameofyourblogunzipfilefolder)'
 
 You should type in this command once you're in the directory of the unzipped file:
-<div class="highlighter-rouge">
-<pre class="highlight">
-<code>s3_website cfg create</code>
-</pre>
-</div>
-
 `jekyll build`
 
 Have you heard of markdown files? Well it's pretty simple to explain because this will make your life a lot easier instead of coding it in html. You can just write down in plain text like 
