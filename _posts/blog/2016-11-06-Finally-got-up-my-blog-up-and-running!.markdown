@@ -12,7 +12,7 @@ and you'll find tons of links. To help you find a jekyll theme, I put a link <a 
 single link result you found on google.
 
 
-Next you need to make a Cloud9 account and create a workspace for just your blog. Once you're done with that you, in your terminal you need to install jekyll like this
+Next you need to make a Cloud9 account and create a workspace for just your blog. Once you're done with that you, in your terminal you need to install jekyll by typing this in:
 `gem install jekyll`
 
 
