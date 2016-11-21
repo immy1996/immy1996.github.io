@@ -4,14 +4,12 @@ title:  "Intro to Flask"
 date:   2016-11-10 02:10:00
 categories: blog
 ---
-I've been using Flask in Cloud9 to create websites and it's been very fun to do so. I'll show you what Flask is, how to install Flask via command line, and how to use Flask via Python and HTML.
+I've been using Flask in Cloud9 to create websites and it's been so fun. I'll tell about you what Flask is, show how to install Flask via command line, and how to use Flask via Python and HTML.
 It honestly isn't bad and it won't take that long!
 
-The definition of Flask is: a Python module for writing web applications. So you need to install Flask via command line:
-<br/>
-`sudo easy_install flask markdown`
+The definition of Flask: a Python module for writing web applications. So you need to install Flask via command line: `sudo easy_install flask markdown`
 
-That command above will install Flask for you and the next thing you have to do is create a server.py file (I would recommend cloud9 but you can choose the editor of your choice) and in the
+The next thing you have to do is create a server.py file (I would recommend cloud9 but you can choose the editor of your choice) and in the
 server.py file, you should have this be in your py file:
 
 ```
@@ -33,7 +31,7 @@ def helloWorld():
 if __name__ == '__main__':
      app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
 ```
-If you run the server and get the link that you get from you terminal, you should get the same thing as I get in this picture below:
+If you run the server and get the link that you get from you terminal, you should get the same result as I get in this picture below:
 <img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/IntroToFlaskBlog2.jpg" alt="Hello World Example 3">
 
 You can in this case in your server.py file, you can use a bit of HTML code like this:
@@ -94,3 +92,12 @@ This will simply create and allow you to switch to your about page you have in "
 Then once you click on "me", you should get this page:
 <img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/HelloWorldColorChangeLink2.jpg" alt="Hello World Color Change Link 2 Example">
 
+If you want to put HTML code in an HTML file, you need to use "<a>" tag since you need to connect from within your server.py file to your HTML file:
+
+```
+<a href="/">Home<a>
+
+<a href="/about">About me<a>
+```
+
+This will allow you to change pages by selecting either one of those two tabs (Home/About me).
