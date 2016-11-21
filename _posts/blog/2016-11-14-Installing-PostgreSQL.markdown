@@ -7,7 +7,7 @@ categories: blog
 Now since we all know what PostgreSQL is, I can now teach you from what I learned from 
 my Computer Science 350 class (Applications of Databases) on how to install PostgreSQL
 and after installing it you will need to log into the default account in order to use 
-PostgreSQL.
+PostgreSQL. It's very quick to install!
 
 On your command line, you should type out these commands:
 ```
@@ -24,13 +24,8 @@ In order to use postgresql, you'll need to login to the default account (client)
 `psql -U postgres -h localhost`
 
 After getting in, you can set a password via command line:
-`\password postgres`
+```
 
-That's how you basically install postgres via command line! I'll give some helpful commands that can help you
-out when you're going to use postgres.
-
-Let's say if we want to login as a different user (for example, guest1) to a database (food) that you have and want to go to,
-well you would write it like this:
-<pre>
-`psql -U guest1 -d food -h localhost`
-</pre>
+\password postgres
+```
+That's how you basically install postgres via command line! 
