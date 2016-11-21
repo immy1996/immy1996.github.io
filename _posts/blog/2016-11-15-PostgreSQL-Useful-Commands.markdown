@@ -10,52 +10,52 @@ help you out when you're going to use postgres:
 <li>
 Let's say if we want to login as a different user (for example, guest1) to a database (food) that you have and want to go to,
 well you would write it like this:
-<code>`psql -U guest1 -d food -h localhost`</code>
+<code>psql -U guest1 -d food -h localhost</code>
 </li>
 
 <li>
 If you want to exit out of the postgres client account, you would type out this command:
-`\q`
+<code>\q</code>
 </li>
 
 <li>
 We can list all the databases by typing this out:
-`\l` or `\list`
+<code>\l</code> or <code>\list</code>
 </li>
 
 <li>
 To change into a particular databse, you can type this out:
-`\c food`
+<code>\c food</code>
 </li>
 
 <li>
 In order to show a list of tables that is in your current database that you are in, you would type this out:
-`\d` or `\dt`
+<code>\d</code> or <code>\dt</code>
 </li>
 
 <li>
 To describe the format of a particular table, this is the command to use:
-`\d dogs`
+<code>\d dogs</code>
 </li>
 
 <li>
 To describe <i>in more detail</i> the format of a particular table, you would be typing this out:
-`\d+ dogs`
+<code>\d+ dogs</code>
 </li>
 
 <li>
 To import sql commands from an sql file, you can type out:
-`\i celtics.sql`
+<code>\i celtics.sql</code>
 </li>
 
 <li>
 To delete a particular database, just type this out:
-`DROP DATABASE celtics`
+<code>DROP DATABASE celtics</code>
 </li>
 
 <li>
 To show all the data in a table of your choice, just type this out:
-`SELECT * FROM europe`
+<code>SELECT * FROM europe</code>
 </li>
 
 </ul>
