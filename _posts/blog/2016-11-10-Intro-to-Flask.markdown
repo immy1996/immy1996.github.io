@@ -88,10 +88,10 @@ if __name__ == '__main__':
 ```
 
 This will simply create and allow you to switch to your about page you have in "`@app.route('/about')`". If you did what I did above, you should get the same results as I did in these pictures:
-<img src="/img/HelloWorldColorChangeLink.jpg" alt="Hello World Color Change Link Example">
+<img src="/assets/img/HelloWorldColorChangeLink.jpg" alt="Hello World Color Change Link Example 2">
 
 Then once you click on "me", you should get this page:
-<img src="/img/HelloWorldColorChangeLink2.jpg" alt="Hello World Color Change Link 2 Example">
+<img src="/assets/img/HelloWorldColorChangeLink2.jpg" alt="Hello World Color Change Link 2 Example 2">
 
 If you want to put HTML code in an HTML file, but first you need to connect from within your server.py file to your HTML file by using the "<a>" tag like this below:
 
