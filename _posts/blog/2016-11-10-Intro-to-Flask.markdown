@@ -34,9 +34,29 @@ if __name__ == '__main__':
      app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
 ```
 If you run the server and get the link that you get from you terminal, you should get the same thing as I get in this picture below:
-<img src="sleek_blog-master/img/IntroToFlaskBlog2.jpg" alt="Hello World Example">
+<img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/IntroToFlaskBlog2.jpg" alt="Hello World Example 3">
+
+You can in this case in your server.py file, you can use a bit of HTML code like this:
 
 ```
-<a href="/">Home</a>
+import os
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+
+def helloWorld():
+
+    return "<h1 style=\"color:red\">Hello World/h1>"
+    
+
+#start the server
+
+if __name__ == '__main__':
+     app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
 ```
 
+What that will do up there will change the size of the text bigger and change the color to red. So you should get the same thing like I do in this picture below:
+<img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/HelloWorldColorChange.jpg" alt="Hello World Color Change Example">
