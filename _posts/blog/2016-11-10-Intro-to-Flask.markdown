@@ -62,6 +62,7 @@ What that will do up there will change the size of the text bigger and change th
 <img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/HelloWorldColorChange.jpg" alt="Hello World Color Change Example">
 
 If you wanted to make more than one page, all you have to do is with this code below:
+
 ```
 import os
 
