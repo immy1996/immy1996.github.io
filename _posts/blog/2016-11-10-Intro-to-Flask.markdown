@@ -12,7 +12,7 @@ The definition of Flask: a Python module for writing web applications. So you ne
 The next thing you have to do is create a server.py file (I would recommend cloud9 but you can choose an editor of your choice) and in the
 server.py file, you should have this in your server.py file to create your first page:
 
-```
+<pre>
 import os
 
 from flask import Flask
@@ -24,13 +24,13 @@ app = Flask(__name__)
 def helloWorld():
 
     return "Hello World"
-    
+ 
 
 #start the server
 
 if __name__ == '__main__':
      app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
-```
+</pre>
 If you run the server and get the link that you get from you terminal, you should get the same result as I get in this picture below:
 <img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/IntroToFlaskBlog2.jpg" alt="Hello World Example 3">
 
