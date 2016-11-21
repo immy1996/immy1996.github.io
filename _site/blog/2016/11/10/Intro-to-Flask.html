@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Imran Ahmed</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link href="kudos.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+
+  <a href="#" class="back-to-top">Back To Top</a>
+<div id="container"></div>
+<header id="h_small">
+    <nav id="nav_small"><a href="/#about-me">About Me</a><a href="/#Experenice">Experience</a><a href="/#Blog">Blog</a><a href="/#Details">Contact Me</a></nav>
+</header>
+
+
+
+<script type="text/javascript">
+			// needs to be a string for jquery.cookie
+			var postId = '1';
+			$(function()
+			{
+				// initialize kudos
+				$("figure.kudoable").kudoable();
+				// check to see if user has already kudod
+				// fyi cookies do not work when you are viewing this as a file
+				if($.cookie(postId) == 'true') {
+					// make kudo already kudod
+					$("figure.kudoable").removeClass("animate").addClass("complete");
+					// your server would take care of the proper kudos count, but because this is a
+					// static page, we need to set it here so it doesn't become -1 when you remove
+					// the kudos after a reload
+					$(".num").html(1);
+				}
+				// when kudoing
+				$("figure.kudo").bind("kudo:active", function(e)
+				{
+					console.log("kudoing active");
+				});
+				// when not kudoing
+				$("figure.kudo").bind("kudo:inactive", function(e)
+				{
+					console.log("kudoing inactive");
+				});
+				// after kudo'd
+				$("figure.kudo").bind("kudo:added", function(e)
+				{
+					var element = $(this);
+					// ajax'y stuff or whatever you want
+					console.log("Kodo'd:", element.data('id'), ":)");
+					// set cookie so user cannot kudo again for 7 days
+					$.cookie(postId, 'true', { expires: 7 });
+				});
+				// after removing a kudo
+				$("figure.kudo").bind("kudo:removed", function(e)
+				{
+					var element = $(this);
+					// ajax'y stuff or whatever you want
+					console.log("Un-Kudo'd:", element.data('id'), ":(");
+					// remove cookie
+					$.removeCookie(postId);
+				});
+			});
+		</script>
+
+
+
+<div class="post-header">
+  <h1 class="post-title">Intro to Flask</h1>
+</div>
+<div class="post-header">
+  <p class="post-meta">November 10, 2016 — 02:10</p>
+</div>
+
+<div class="post-wrapper">
+
+
+
+  <article class="post-content">
+    <div class = "blurb-blog">
+    <p>I’ve been using Flask in Cloud9 to create websites and it’s been so fun. I’ll tell you what Flask is, show how to install Flask via command line, and how to use Flask via Python and HTML
+and you’ll be able to create simple pages. It honestly isn’t that hard and it won’t take that long to get a website up and running!</p>
+
+<p>The definition of Flask: a Python module for writing web applications. So you need to install Flask via command line: <code class="highlighter-rouge">sudo easy_install flask markdown</code></p>
+
+<p>The next thing you have to do is create a server.py file (I would recommend cloud9 but you can choose an editor of your choice) and in the
+server.py file, you should have this in your server.py file to create your first page:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>import os
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+
+def helloWorld():
+
+    return "Hello World"
+ 
+
+#start the server
+
+if __name__ == '__main__':
+     app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
+</code></pre>
+</div>
+
+<p>If you run the server and get the link that you get from you terminal, you should get the same result as I get in this picture below:
+<img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/IntroToFlaskBlog2.jpg" alt="Hello World Example 3" /></p>
+
+<p>You can in this case in your server.py file, you can use a bit of HTML code to make it more better than it being plain text like this:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>import os
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+
+def helloWorld():
+
+    return "&lt;h1 style=\"color:red\"&gt;Hello World&lt;/h1&gt;"
+    
+
+#start the server
+
+if __name__ == '__main__':
+     app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
+</code></pre>
+</div>
+
+<p>What that will do up there will change the size of the text bigger and change the color to red. So if you did what I did above, you should get the same result as I did in this picture below:
+<img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/HelloWorldColorChange.jpg" alt="Hello World Color Change Example" /></p>
+
+<p>If you wanted to make more than one page, all you have to do is with this code below:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>import os
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+
+def helloWorld():
+
+    return "&lt;h1 style=\"color:red\"&gt;Hello World&lt;/h1&gt; Welcome to my website! Click here to find about &lt;a href=\"about\"&gt;me!&lt;/a&gt;"
+    
+@app.route('/about')
+
+def aboutMe():
+
+    return "&lt;h1&gt;About me!&lt;/h1&gt; Favorite basketball team: Boston Celtics"
+    
+#start the server
+
+if __name__ == '__main__':
+     app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
+</code></pre>
+</div>
+
+<p>This will simply create and allow you to switch to your about page you have in “<code class="highlighter-rouge">@app.route('/about')</code>”. If you did what I did above, you should get the same results as I did in these pictures:
+<img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/HelloWorldColorChangeLink.jpg" alt="Hello World Color Change Link Example" /></p>
+
+<p>Then once you click on “me”, you should get this page:
+<img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/HelloWorldColorChangeLink2.jpg" alt="Hello World Color Change Link 2 Example" /></p>
+
+<p>If you want to put HTML code in an HTML file, but first you need to connect from within your server.py file to your HTML file by using the “<a>” tag like this below:</a></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;a href="/"&gt;Home&lt;a&gt;
+
+&lt;a href="/about"&gt;About me&lt;a&gt;
+</code></pre>
+</div>
+
+<p>This will allow you to change pages by selecting either one of those two tabs (Home/About me).</p>
+
+   </div>
+  </article>
+
+
+</div>
+<div class="comment">
+  
+  </div>
+
+  <footer>
+    <div class="lockup">
+        <div class="content-wrap">
+            <nav><a href="#about-me">About Me</a><a href="#Experenice">Experience</a><a href="#Blog">Blog</a><a href="#Details">Contact Me</a></nav>
+            <p class="copyright"><b>Imran Ahmed 2016</b></p>
+        </div>
+    </div>
+</footer>
+
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/functions.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/modernizr.js"></script>
+  <script src="assets/js/kudos.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70467029-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

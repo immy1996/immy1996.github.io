@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Imran Ahmed</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link href="kudos.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+
+  <a href="#" class="back-to-top">Back To Top</a>
+<div id="container"></div>
+<header id="h_small">
+    <nav id="nav_small"><a href="/#about-me">About Me</a><a href="/#Experenice">Experience</a><a href="/#Blog">Blog</a><a href="/#Details">Contact Me</a></nav>
+</header>
+
+
+
+<script type="text/javascript">
+			// needs to be a string for jquery.cookie
+			var postId = '1';
+			$(function()
+			{
+				// initialize kudos
+				$("figure.kudoable").kudoable();
+				// check to see if user has already kudod
+				// fyi cookies do not work when you are viewing this as a file
+				if($.cookie(postId) == 'true') {
+					// make kudo already kudod
+					$("figure.kudoable").removeClass("animate").addClass("complete");
+					// your server would take care of the proper kudos count, but because this is a
+					// static page, we need to set it here so it doesn't become -1 when you remove
+					// the kudos after a reload
+					$(".num").html(1);
+				}
+				// when kudoing
+				$("figure.kudo").bind("kudo:active", function(e)
+				{
+					console.log("kudoing active");
+				});
+				// when not kudoing
+				$("figure.kudo").bind("kudo:inactive", function(e)
+				{
+					console.log("kudoing inactive");
+				});
+				// after kudo'd
+				$("figure.kudo").bind("kudo:added", function(e)
+				{
+					var element = $(this);
+					// ajax'y stuff or whatever you want
+					console.log("Kodo'd:", element.data('id'), ":)");
+					// set cookie so user cannot kudo again for 7 days
+					$.cookie(postId, 'true', { expires: 7 });
+				});
+				// after removing a kudo
+				$("figure.kudo").bind("kudo:removed", function(e)
+				{
+					var element = $(this);
+					// ajax'y stuff or whatever you want
+					console.log("Un-Kudo'd:", element.data('id'), ":(");
+					// remove cookie
+					$.removeCookie(postId);
+				});
+			});
+		</script>
+
+
+
+<div class="post-header">
+  <h1 class="post-title">PostgreSQL Useful Commands</h1>
+</div>
+<div class="post-header">
+  <p class="post-meta">November 15, 2016 — 01:10</p>
+</div>
+
+<div class="post-wrapper">
+
+
+
+  <article class="post-content">
+    <div class = "blurb-blog">
+    <p>Since now I taught what is PostgreSQL and how to install it, I’ll give some helpful commands that can 
+help you out when you’re going to use postgres:</p>
+<ul>
+<li>
+Let's say if we want to login as a different user (for example, guest1) to a database (food) that you have and want to go to,
+well you would write it like this:
+<code>psql -U guest1 -d food -h localhost</code>
+</li>
+
+<li>
+If you want to exit out of the postgres client account, you would type out this command:
+<code>\q</code>
+</li>
+
+<li>
+We can list all the databases by typing this out:
+<code>\l</code> or <code>\list</code>
+</li>
+
+<li>
+To change into a particular databse, you can type this out:
+<code>\c nba</code>
+</li>
+
+<li>
+In order to show a list of tables that is in your current database that you are in, you would type this out:
+<code>\d</code> or <code>\dt</code>
+</li>
+
+<li>
+To describe the format of a particular table, this is the command to use:
+<code>\d celtics<code>
+&lt;/li&gt;
+
+<li>
+To describe <i>in more detail</i> the format of a particular table, you would be typing this out:
+<code>\d+ celtics</code>
+</li>
+
+<li>
+To import sql commands from an sql file, you can type out:
+<code>\i nba.sql</code>
+</li>
+
+<li>
+To delete a particular database, just type this out:
+<code>DROP DATABASE nba</code>
+</li>
+
+<li>
+To show all the data in a table of your choice, just type this out:
+<code>SELECT * FROM celtics</code>
+</li>
+
+&lt;/ul&gt;
+</code></code></li></ul>
+
+   </div>
+  </article>
+
+
+</div>
+<div class="comment">
+  
+  </div>
+
+  <footer>
+    <div class="lockup">
+        <div class="content-wrap">
+            <nav><a href="#about-me">About Me</a><a href="#Experenice">Experience</a><a href="#Blog">Blog</a><a href="#Details">Contact Me</a></nav>
+            <p class="copyright"><b>Imran Ahmed 2016</b></p>
+        </div>
+    </div>
+</footer>
+
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/functions.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/modernizr.js"></script>
+  <script src="assets/js/kudos.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70467029-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
