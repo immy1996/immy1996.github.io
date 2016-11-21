@@ -24,8 +24,6 @@ In order to use postgresql, you'll need to login to the default account (client)
 `psql -U postgres -h localhost`
 
 After getting in, you can set a password via command line:
-```
+`\password postgres`
 
-\password postgres
-```
 That's how you basically install postgres via command line! 
