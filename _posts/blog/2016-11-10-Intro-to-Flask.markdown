@@ -4,8 +4,8 @@ title:  "Intro to Flask"
 date:   2016-11-10 02:10:00
 categories: blog
 ---
-I've been using Flask in Cloud9 to create websites and it's been so fun. I'll tell about you what Flask is, show how to install Flask via command line, and how to use Flask via Python and HTML.
-It honestly isn't bad and it won't take that long!
+I've been using Flask in Cloud9 to create websites and it's been so fun. I'll tell you what Flask is, show how to install Flask via command line, and how to use Flask via Python and HTML.
+It honestly isn't that hard and it won't take that long to get a website up and running!
 
 The definition of Flask: a Python module for writing web applications. So you need to install Flask via command line: `sudo easy_install flask markdown`
 
