@@ -1,15 +1,16 @@
 ---
 layout: post
 title:  "PostgreSQL Useful Commands"
-date:   2016-11-14 01:10:00
+date:   2016-11-15 01:10:00
 categories: blog
 ---
 Since now I taught what is PostgreSQL and how to install it, I'll give some helpful commands that can 
 help you out when you're going to use postgres:
 <ul>
-<li>Let's say if we want to login as a different user (for example, guest1) to a database (food) that you have and want to go to,
+<li>
+Let's say if we want to login as a different user (for example, guest1) to a database (food) that you have and want to go to,
 well you would write it like this:
-`psql -U guest1 -d food -h localhost`
+<code>`psql -U guest1 -d food -h localhost`</code>
 </li>
 
 <li>
@@ -40,7 +41,7 @@ To describe the format of a particular table, this is the command to use:
 <li>
 To describe <i>in more detail</i> the format of a particular table, you would be typing this out:
 `\d+ dogs`
-<li>
+</li>
 
 <li>
 To import sql commands from an sql file, you can type out:
