@@ -49,7 +49,7 @@ app = Flask(__name__)
 
 def helloWorld():
 
-    return "<h1 style=\"color:red\">Hello World/h1>"
+    return "<h1 style=\"color:red\">Hello World</h1>"
     
 
 #start the server
@@ -58,5 +58,36 @@ if __name__ == '__main__':
      app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
 ```
 
-What that will do up there will change the size of the text bigger and change the color to red. So you should get the same thing like I do in this picture below:
+What that will do up there will change the size of the text bigger and change the color to red. So if you did what I did above, you should get the same thing like I did in this picture below:
 <img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/HelloWorldColorChange.jpg" alt="Hello World Color Change Example">
+
+If you wanted to make more than one page, all you have to do is with this code below:
+```
+import os
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+
+def helloWorld():
+
+    return "<h1 style=\"color:red\">Hello World</h1> Welcome to my website! Click here to find about <a href=\"about\">me!</a>"
+    
+@app.route('/about')
+
+def aboutMe():
+    return "<h1>About me!</h1> Favorite basketball team: Boston Celtics"
+#start the server
+
+if __name__ == '__main__':
+     app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
+```
+
+This will simply create and allow you to switch to your about page you have in "`@app.route('/about')`". If you did what I did above, you should get the same results as I did in these pictures:
+<img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/HelloWorldColorChangeLink.jpg" alt="Hello World Color Change Link Example">
+
+Then once you click on "me", you should get this page:
+<img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/HelloWorldColorChangeLink2.jpg" alt="Hello World Color Change Link 2 Example">
+
