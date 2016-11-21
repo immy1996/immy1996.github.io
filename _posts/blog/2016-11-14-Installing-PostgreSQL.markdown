@@ -9,15 +9,28 @@ my Computer Science 350 class (Applications of Databases) on how to install Post
 and after installing it you will need to log into the default account in order to use 
 PostgreSQL.
 
-install it via command line
+On your command line, you should type out these commands:
+```
 sudo apt-get update
-sudo apt-get install postgresql postgresql-contrib 
 
-after installation you need to start the postgresql on your machine via command line
-sudo service postgresql start
+sudo apt-get install postgresql-contrib-9.3
+```
 
-in order to use postgresql, you need to make an account. We'll login to the default account to use postgresql:
-psql -U postgres -h localhost
+After installation, you need to start the postgresql on your machine via command line:
+`sudo service postgresql start`
+This command above will start up the server. 
 
-after getting in, you can set a password via command line:
-\password postgres
+In order to use postgresql, you'll need to login to the default account (client) to use postgresql:
+`psql -U postgres -h localhost`
+
+After getting in, you can set a password via command line:
+`\password postgres`
+
+That's how you basically install postgres via command line! I'll give some helpful commands that can help you
+out when you're going to use postgres.
+
+Let's say if we want to login as a different user (for example, guest1) to a database (food) that you have and want to go to,
+well you would write it like this:
+<pre>
+`psql -U guest1 -d food -h localhost`
+</pre>
