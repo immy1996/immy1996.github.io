@@ -25,7 +25,7 @@ We can list all the databases by typing this out:
 
 <li>
 To change into a particular databse, you can type this out:
-<code>\c food</code>
+<code>\c nba</code>
 </li>
 
 <li>
@@ -35,27 +35,27 @@ In order to show a list of tables that is in your current database that you are 
 
 <li>
 To describe the format of a particular table, this is the command to use:
-<code>\d dogs</code>
+<code>\d celtics<code>
 </li>
 
 <li>
 To describe <i>in more detail</i> the format of a particular table, you would be typing this out:
-<code>\d+ dogs</code>
+<code>\d+ celtics</code>
 </li>
 
 <li>
 To import sql commands from an sql file, you can type out:
-<code>\i celtics.sql</code>
+<code>\i nba.sql</code>
 </li>
 
 <li>
 To delete a particular database, just type this out:
-<code>DROP DATABASE celtics</code>
+<code>DROP DATABASE nba</code>
 </li>
 
 <li>
 To show all the data in a table of your choice, just type this out:
-<code>SELECT * FROM europe</code>
+<code>SELECT * FROM celtics</code>
 </li>
 
 </ul>
