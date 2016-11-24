@@ -35,7 +35,7 @@ In order to show a list of tables that is in your current database that you are 
 
 <li>
 To describe the format of a particular table, this is the command to use:
-<code>\d celtics<code>
+<code>\d celtics</code>
 </li>
 
 <li>
