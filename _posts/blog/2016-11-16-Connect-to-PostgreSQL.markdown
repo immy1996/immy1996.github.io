@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Connecting PostgreSQL"
+title:  "Connect to PostgreSQL"
 date:   2016-11-16 02:40:00
 categories: blog
 ---
