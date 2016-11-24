@@ -13,27 +13,26 @@ is type this into your command:
 This line of code will install the adapter.
 
 After that, open up a python file and use the following code:
-<code>
 
-import psycopg2
+    import psycopg2
 
-import psycopg2.extras
+    import psycopg2.extras
 
-import os
+    import os
 
-def connectToDBServer():
-    print("Connecting to the database!")
-    
-    connectingString = 'dbname=celtics user=iahmed password=abc host=localhost'
-    
-    try:
-    
-        return psycopg2.connect(connectionString)
+    def connectToDBServer():
         
-    except:
-    
-        print("Can't connect to database!")
-</code>
+        print("Connecting to the database!")
+        
+        connectionString = 'dbname=celtics user=iahmed password=abc host=localhost'
+        
+        try:
+        
+            return psycopg2.connect(connectionString)
+            
+        except:
+        
+            print("Can't connect to database!")
 
 Since we're trying to connect to PostgreSQL, that's were we connect by importing the psycopg2 module
 and wrote the `def connectToDBServer()` function. Within that `def connectToDBServer`
