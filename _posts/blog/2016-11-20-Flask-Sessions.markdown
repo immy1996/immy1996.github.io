@@ -11,8 +11,8 @@ is that they are just little pieces of information that websites use to track a 
 their current "session" on a website.
 
 Cookies have no expiration date, they die when the session ends. A session can end when you close the browser. Cookies
-can persist even when you close your browser. Sessions are good for tracking users. The data in a session is stored in
-a Python dictionary which is called session. To change it up a bit, you need to create a new key and store some value
+can persist even when you close your browser. Sessions are good for tracking users. Session is defined as the data in 
+a session is stored in a Python dictionary. To change it up a bit, you need to create a new key and store some value
 in that session like this:
 
     session['firstName'] = firstName
