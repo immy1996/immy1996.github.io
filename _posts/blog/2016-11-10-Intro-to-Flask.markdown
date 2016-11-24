@@ -33,7 +33,7 @@ server.py file, you should have this in your server.py file to create your first
 
 
 If you run the server and get the link that you get from you terminal, you should get the same result as I get in this picture below:
-<img src="/JekyllGithubTechnicalblog/sleek_blog-master/assets/img/IntroToFlaskBlog2.jpg" alt="Hello World Example 3">
+<img src="/assets/img/IntroToFlaskBlog2.jpg" alt="Hello World Example" height="500" weight="500">
 
 You can in this case in your server.py file, you can use a bit of HTML code to make it more better than it being plain text like this:
 
