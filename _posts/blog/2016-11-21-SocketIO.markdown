@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "SocketIO"
+date:   2016-11-21 2:12:00
+categories: blog
+---
+Flask can use SocketIO which is an AngularJS wrapper for controllers that can easily send data back and forth from the frontend through
+Javascript and the backend of it will receive the data. 
+
+AngularJS runs in the browser. So in order to use SocketIO, you need to have something running in the browser (which will be the AngularJS)
+and something on the server side (which will be the Python/Flask SocketIO). If a socket receives data from the server and is sent to the 
+right function, then the function is called. 
+
+Before we start to code on Flask-SocketIO, you need to install Flask-SocketIO which you need to put in your terminal:
+
+    `sudo easy_install flask-socketio`
+    
+In your HTML files, you need to add the following 2 lines to import some javascript libraries :
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.4/socket.io.js"></script>
+    
+Now, you need a Javascript function that will eventually be called when on the frontend of the website, something is clicked there. Depending on what 
+is clicked on the browser, that particular data will be sent from the frontend of the website to the Javascript side. Now that data, it has to be 
+sent to a function that implements SocketIO in Flask, an example can be like this:
+
+    $scope.setName = function setName(){
+        socket.emit('identify', $scope.name)  
+    };
+    
+Going forward to the server side (Python/Flask SocketIO), the data is sent to the function that was named in the first parameter of socket.emit() (identify) on the Javascript side.
+The second parameter of the socket.emit() ($scope.name) is the data which is going to be to sent to Flask:
+
+    @socketio.on('identify', namespace='/iss')
+    def on_identify(user):
+        print('Identify: ' + user)
+        users[session['uuid']] = {'username' : user}
+
+Now if we wanted to send the data back to Javascript to display something on the frontend, we could emit again from Flask. Again, the emit parameters are the same.
+
+    @socketio.on('connect', namespace='/iss')
+    def Connection():
+        session['uuid'] = uuid.uuid1()
+        emit('connected')
+
+So we will use this function to send data back to Javascript side:
+
+    socket.on('connected', function(){
+           console.log('Connected'); 
+    });
+
