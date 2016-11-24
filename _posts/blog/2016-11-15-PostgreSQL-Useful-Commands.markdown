@@ -4,8 +4,8 @@ title:  "PostgreSQL Useful Commands"
 date:   2016-11-15 01:10:00
 categories: blog
 ---
-Since now I taught what is PostgreSQL and how to install it, I'll give some helpful commands that can 
-help you out when you're going to use postgres:
+Since now yoy know what is PostgreSQL and how to install it, you'll learn some helpful commands that can 
+help you out when you're going to use PostgreSQL:
 <ul>
 <li>
 Let's say if we want to login as a different user (for example, guest1) to a database (food) that you have and want to go to,
