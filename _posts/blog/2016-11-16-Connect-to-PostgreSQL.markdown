@@ -7,7 +7,7 @@ categories: blog
 
 To connect to PostgreSQL, you need to use Python. But the first step you need to do 
 is type this into your command:
-` sudo apt-get install python-psycopg2 `
+`sudo apt-get install python-psycopg2`
 
 This line of code will install the adapter.
 
@@ -36,18 +36,18 @@ def connectToDBServer():
 ```
 
 Since we're trying to connect to PostgreSQL, that's were we connect by importing the psycopg2 module
-and wrote the <code>def connectToDBServer()</code> function. Within that <code> def connectToDBServer </code>
+and wrote the `def connectToDBServer()` function. Within that `def connectToDBServer`
 function, we made the connectionString and provided the dbname = (databasename), user = (username), password 
 = (password), host= (url).
 
-Especially, we're trying to make the connection using "<code> psycopg2.connect(connectionString)</code>" by
+Especially, we're trying to make the connection using "`psycopg2.connect(connectionString)`" by
 passing the connectionString in the beginning of our function. If it connects in the try statement, then it 
 will return us the connection to the database. If not, then it will go the except statement and tell the user
 by printing out that "Can't connect to the database!"
 
 When we are connected to the database, we can fetch to the information by using this code:
+
 ```
-    
     con=connectToDBServer()
     
     cur =con.cursor(cursor_factory=psycopg2.extras.DictCursor)
