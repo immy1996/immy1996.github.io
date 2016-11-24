@@ -93,7 +93,7 @@ This will simply create and allow you to switch to your about page you have in "
 Then once you click on "me", you should get this page:
 <img src="/assets/img/HelloWorldColorChangeLink2.jpg" alt="Hello World Color Change Link 2" height="500" weight="500">
 
-If you want to put HTML code in an HTML file, but first you need to connect from within your server.py file to your HTML file by using the "<a>" tag like this below:
+If you want to put HTML code in an HTML file, but first you need to connect from within your server.py file to your HTML file by using it like this below:
 
 ```
 <a href="/">Home<a>
