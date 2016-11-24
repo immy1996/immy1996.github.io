@@ -7,7 +7,7 @@ categories: blog
 
 To connect to PostgreSQL, you need to use Python. But the first step you need to do 
 is type this into your command:
-<code> sudo apt-get install python-psycopg2 </code>
+` sudo apt-get install python-psycopg2 `
 
 This line of code will install the adapter.
 
