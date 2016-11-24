@@ -7,12 +7,13 @@ categories: blog
 
 To connect to PostgreSQL, you need to use Python. But the first step you need to do 
 is type this into your command:
+
 `sudo apt-get install python-psycopg2`
 
 This line of code will install the adapter.
 
 After that, open up a python file and use the following code:
-```
+<code>
 import psycopg2
 
 import psycopg2.extras
@@ -33,7 +34,7 @@ def connectToDBServer():
     
        print("Can't connect to database!")
        
-```
+</code>
 
 Since we're trying to connect to PostgreSQL, that's were we connect by importing the psycopg2 module
 and wrote the `def connectToDBServer()` function. Within that `def connectToDBServer`
