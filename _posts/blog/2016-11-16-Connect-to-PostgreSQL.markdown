@@ -12,7 +12,7 @@ is type this into your command:
 This line of code will install the adapter.
 
 After that, open up a python file and use the following code:
-<code>
+```
 import psycopg2
 
 import psycopg2.extras
@@ -33,7 +33,7 @@ def connectToDBServer():
     
        print("Can't connect to database!")
        
-</code>
+```
 
 Since we're trying to connect to PostgreSQL, that's were we connect by importing the psycopg2 module
 and wrote the <code>def connectToDBServer()</code> function. Within that <code> def connectToDBServer </code>
@@ -47,6 +47,7 @@ by printing out that "Can't connect to the database!"
 
 When we are connected to the database, we can fetch to the information by using this code:
 ```
+    
     con=connectToDBServer()
     
     cur =con.cursor(cursor_factory=psycopg2.extras.DictCursor)
