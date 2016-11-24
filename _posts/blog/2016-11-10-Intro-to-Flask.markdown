@@ -58,7 +58,7 @@ if __name__ == '__main__':
 ```
 
 What that will do up there will change the size of the text bigger and change the color to red. So if you did what I did above, you should get the same result as I did in this picture below:
-<img src="/assets/img/HelloWorldColorChange.jpg" alt="Hello World Color Change Example" height="500" weight="500>
+<img src="/assets/img/HelloWorldColorChange.jpg" alt="Hello World Color Change Example" height="500" weight="500">
 
 If you wanted to make more than one page, all you have to do is with this code below:
 
