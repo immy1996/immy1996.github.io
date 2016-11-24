@@ -10,9 +10,7 @@ is type this into your command:
 
 `sudo apt-get install python-psycopg2`
 
-This line of code will install the adapter.
-
-After that, open up a python file and use the following code:
+This line of code will install the adapter. After that, open up a python file and use the following code:
 
     import psycopg2
 
