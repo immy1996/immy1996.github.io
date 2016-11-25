@@ -27,7 +27,7 @@ So in order to use session variables, you need to start a session like this:
 The way to set up session variables:
 
     session['username'] = 'iahmed'
-    session['city'] = ['Geneva']
+    session['city'] = 'Geneva'
     session['favNum'] = 16
 
 We can using a session variable value like this:
