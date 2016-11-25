@@ -9,8 +9,8 @@ Create, Insert, Select, Delete in PostgreSQL
 To create a database in PostgreSQL, you would type this command out:
     `CREATE DATABASE users;`
 
-I would recommend to put `DROP DATABASE IF EXISTS user;` in case if you have the same database
-called user because you don't want to have two user databases.
+I would recommend to put `DROP DATABASE IF EXISTS user;` before the `CREATE DATABASE users` in case if you 
+have the same database called users because you don't want to have two users databases.
 
 In order to create a table in PostgreSQL, this is the basic syntax and format:
 
