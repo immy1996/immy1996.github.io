@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simple PostgreSQL Functionality"
-date:   2016-11-13 8:22:00
+date:   2016-11-23 8:22:00
 categories: blog
 ---
 Create, Insert, Select, Delete in PostgreSQL
