@@ -25,7 +25,7 @@ In order to create a table in PostgreSQL, this is the basic syntax and format:
 From the format above, we're naming the table and giving how many columns that we want. We also are defining the column
 type and the max length of that particular field data.
 
-We'll create a simple table here:
+We'll create a table here:
 
     CREATE TABLE registered (
         account_id serial PRIMARY KEY,
@@ -39,7 +39,7 @@ We'll create a simple table here:
 To see our table, we will use the "\d" command in PostgreSQL which should describe our table like this:
     \d registered;
     
-The format of our table:
+The format of our table would be like this:
                            List of relations
      Schema |          Name              |   Type   |  Owner   
     --------+----------------------------+----------+----------
@@ -52,24 +52,24 @@ Now from above, we have our registered table, but there is also something right 
 
 Since we have our table created, we can start inserting some data into it. For example, let's add another account
 into it. We do this by calling the table that we want to add too, naming the columns and then providing
-data for each of those columns. When you insert a statement, column names shouldn't be quote but the column values
-that you're entering do need to be quoted but some doesn't need to like for example, our age column. We should be inserting it like this:
+data for each of those columns. Before you always insert anything, never enter a value for any of the id column. 
+The reason is that because it is auto-generated whenever a new row in the table is created. When you insert a 
+statement, column names shouldn't be quote but the column values that you're entering do need to be quoted but 
+some doesn't need to like for example, our age column. We should be inserting it like this:
 
 `INSERT INTO student_info (name, email, age, username, password) values ('Imran Ahmed', 'example@example.com', 20, 'celticsuser', 'celticspass');`
-
-Before you always insert anything, never enter a value for any of the id column. The reason is that because it
-is auto-generated whenever a new row in the table is created. 
 
 We can select like this to get the information back:
 `SELECT * from registered WHERE account_id = '1';`
 
-Then it should display as this:
+Then it should display something like this:
 
      account_id	|    name     |  age  |   username    |   password
      1	          Imran Ahmed    20      celticsuser     celticspass  
  
-Now see how in the beginning our `account_id` is filled along the rest of our other data that has been organized correctly. Now let's say
-we want to remove a row from our table. Let's delete the row that we just inserted into our table. We can delete it like this:
+Now see how in the beginning our `account_id` is filled along the rest of our other data that has been organized correctly. 
+
+Now let's say we want to remove a row from our table. Let's delete the row that we just inserted into our table. We can delete it like this:
 
     DELETE FROM registered WHERE age = 20;
 
