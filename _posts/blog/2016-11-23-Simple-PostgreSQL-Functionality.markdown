@@ -22,6 +22,7 @@ In order to create a table in PostgreSQL, this is the basic syntax and format:
         columnN datatype,
         PRIMARY KEY( one or more columns )
     );
+    
 From the format above, we're naming the table and giving how many columns that we want. We also are defining the column
 type and the max length of that particular field data.
 
@@ -37,7 +38,8 @@ We'll create a table here:
     );
 
 To see our table, we will use the "\d" command in PostgreSQL which should describe our table like this:
-    \d registered;
+    
+    `\d registered;`
     
 The format of our table would be like this:
 
