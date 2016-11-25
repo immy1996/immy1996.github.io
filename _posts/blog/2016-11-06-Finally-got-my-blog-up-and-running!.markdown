@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finally got up my blog up and running!"
+title:  "Finally got my blog up and running!"
 date:   2016-11-06 02:38:00
 categories: blog
 ---
