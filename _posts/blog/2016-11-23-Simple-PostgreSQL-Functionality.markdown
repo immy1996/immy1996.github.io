@@ -40,7 +40,8 @@ To see our table, we will use the "\d" command in PostgreSQL which should descri
     \d registered;
     
 The format of our table would be like this:
-                           List of relations
+
+                          List of relations
      Schema |          Name              |   Type   |  Owner   
     --------+----------------------------+----------+----------
      public | registered                 | table    | postgres
