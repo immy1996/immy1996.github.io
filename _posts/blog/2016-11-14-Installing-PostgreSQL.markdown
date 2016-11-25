@@ -10,11 +10,11 @@ and after installing it you will need to log into the default account in order t
 PostgreSQL. It's very quick to install!
 
 On your command line, you should type out these commands:
-```
-sudo apt-get update
 
-sudo apt-get install postgresql-contrib-9.3
-```
+    sudo apt-get update
+
+    sudo apt-get install postgresql-contrib-9.3
+
 
 After installation, you need to start the postgresql on your machine via command line:
 `sudo service postgresql start`
