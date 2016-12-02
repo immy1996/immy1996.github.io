@@ -27,7 +27,7 @@ The reason that works is because socket.io links the HTML to JavaScript which al
 
 I'll show you a couple example here from the HTML side and the JavaScript (Controller) side:
 
-<u>HTML</u>
+<u>HTML side</u>
 
     <form method="POST" ng-submit="send()">
       <input type="text" ng-model="text" size="30" placeholder="..">
@@ -35,7 +35,7 @@ I'll show you a couple example here from the HTML side and the JavaScript (Contr
     </form>
         
 
-<u>JavaScript</u>
+<u>JavaScript side</u>
 
     $scope.send = function send(){
     console.log('Sending message: ', $scope.text);
