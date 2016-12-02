@@ -40,13 +40,13 @@ I'll show you a couple example here from the HTML side and the JavaScript (Contr
     };
 
 The JavaScript has a matching function on the HTML side "send()"and is able to access the text that the user typed. Since the HTML and 
-JavaScript are linked with each other, every time as the user updates the "ng-model="text" " input, the $scope.text variable is updated
+JavaScript are linked with each other, every time as the user updates the " ng-model="text" " input, the $scope.text variable is updated
 as well. It'll allow on the controller side to emit a signal to the server side and let it handle either retrieving or inserting the messages
 into the database.
 
 Now, let's look at a simple way to handle from the controller side to the server side to understand the concept easier from how I understood this SocketIO concept. 
 You need a Javascript function that will eventually be called when something is clicked on the frontend of the website. Depending on what is clicked on 
-the browser, that particular data will be sent from the frontend of the website (from HTML side) to the Javascript side. Now that data, it has to be sent to a function that implements 
+the browser, that particular data will be sent from the frontend of the website to the Javascript side. Now that data, it has to be sent to a function that implements 
 SocketIO in Flask (Python side), an example can be like this:
 
     $scope.setName = function setName(){
