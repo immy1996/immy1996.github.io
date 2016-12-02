@@ -4,6 +4,8 @@ title:  "SocketIO"
 date:   2016-11-21 2:12:00
 categories: blog
 ---
+As I learned about SocketIO, at first it seemed pretty confusing to me but as I look back at it, it makes a lot sense now.
+
 Flask can use SocketIO which is an AngularJS wrapper for controllers that can easily send data back and forth from the frontend through
 Javascript and the backend of it will receive the data. 
 
@@ -20,15 +22,38 @@ In your HTML files, you need to add the following 2 lines to import some javascr
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.4/socket.io.js"></script>
     
-Now, you need a Javascript function that will eventually be called when on the frontend of the website, something is clicked there. Depending on what 
-is clicked on the browser, that particular data will be sent from the frontend of the website to the Javascript side. Now that data, it has to be 
-sent to a function that implements SocketIO in Flask, an example can be like this:
+You can call any JavaScript functions from within any HTML files. The controller.js has functions that can work with the server. 
+The reason that works is because socket.io links the HTML to JavaScript which allows reality results.
+
+I'll show you a couple example here from the HTML side and the JavaScript (Controller) side:
+<u>HTML</u>
+        <form method="POST" ng-submit="send()">
+          <input type="text" ng-model="text" size="30" placeholder="..">
+          <input type="submit" name="sendButton" value="Send" ng-disabled="!text">
+        </form>
+
+<u>JavaScript</u>
+    $scope.send = function send(){
+    console.log('Sending message: ', $scope.text);
+    socket.emit('message', $scope.text);
+    $scope.text = '';
+    };
+
+The JavaScript has a matching function on the HTML side "send()"and is able to access the text that the user typed. Since the HTML and 
+JavaScript are linked with each other, every time as the user updates the "ng-model="text" " input, the $scope.text variable is updated
+as well. It'll allow on the controller side to emit a signal to the server side and let it handle either retrieving or inserting the messages
+into the database.
+
+Now, let's look at a simple way to handle from the controller side to the server side to understand the concept easier from how I understood this SocketIO concept. 
+You need a Javascript function that will eventually be called when something is clicked on the frontend of the website. Depending on what is clicked on 
+the browser, that particular data will be sent from the frontend of the website (from HTML side) to the Javascript side. Now that data, it has to be sent to a function that implements 
+SocketIO in Flask (Python side), an example can be like this:
 
     $scope.setName = function setName(){
         socket.emit('identify', $scope.name)  
     };
     
-Going forward to the server side (Python/Flask SocketIO), the data is sent to the function that was named in the first parameter of socket.emit() (identify) on the Javascript side.
+Going forward to the server side (Python/Flask SocketIO), the data is sent to the function that was named in the first parameter of socket.emit() ('identify') on the Javascript side.
 The second parameter of the socket.emit() ($scope.name) is the data which is going to be to sent to Flask:
 
     @socketio.on('identify', namespace='/iss')
