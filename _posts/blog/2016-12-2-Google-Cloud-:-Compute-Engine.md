@@ -36,3 +36,19 @@ After clicking that, you should come up at this page:
 Now we want to create to an instance, so click on "Create Instance". You should be at this page as of now:
 <img src="/assets/img/GoogleCloudConsoleComputeEnginePageCreatingInstance.jpg" alt="Google Cloud Console Compute Engine Page Creating Instance Example" height="500" weight="500">
 
+So now you can create a name for your instance as you desire. The zones you say there, there is a list of zones
+in the World that you can choose from as you wish or from your place that you're located in that zone. The Machine
+type, you can increase the memory storage of it but it'll cost you more but choose the size as you wish. The Boot disk
+is where you need to meet you the type that fits and computes with the type of your laptop. For example, I'm using Windows,
+so I'll probably use a Windows one. You can choose any one you want but I prefer and recommend to use a one that's compatible
+with your laptop. Don't forget to check in the Firewall section where it says "Allow HTTP traffic". Check that. Then hit
+"Create" and it'll take a few minutes to create your instance you want to create. 
+
+After it's created your page should come up as this:
+<img src="/assets/img/GoogleCloudConsoleComputeEnginePageInstanceCreated.jpg" alt="Google Cloud Console Compute Engine Page Instance Created Example" height="500" weight="500">
+
+Click on the "SSH" button and you can bring up your VM which should display like this after clicking on the SSH button:
+<img src="/assets/img/InstanceRunningSSH.jpg" alt="Instance Running SSH Example" height="500" weight="500">
+
+If you wanted to see more of the information about your instance, on the Compute Engine Home page, just click on the name of your instance and it'll bring up the page like this:
+<img src="/assets/img/InstanceInfo.jpg" alt="Instance Info Example" height="500" weight="500">
