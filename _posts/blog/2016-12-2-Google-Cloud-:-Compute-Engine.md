@@ -48,7 +48,7 @@ After it's created your page should come up as this:
 <img src="/assets/img/GoogleCloudConsoleComputeEnginePageInstanceCreated.jpg" alt="Google Cloud Console Compute Engine Page Instance Created Example" height="500" weight="500">
 
 Click on the "SSH" button and you can bring up your VM which should display like this after clicking on the SSH button:
-<img src="/assets/img/InstanceRunningSSH.jpg" alt="Instance Running SSH Example" height="500" weight="500">
+<img src="/assets/img/InstanceRunningSSH.jpg" alt="Instance Running SSH Example 2" height="500" weight="500">
 
 If you wanted to see more of the information about your instance, on the Compute Engine Home page, just click on the name of your instance and it'll bring up the page like this:
 <img src="/assets/img/InstanceInfo.jpg" alt="Instance Info Example" height="500" weight="500">
