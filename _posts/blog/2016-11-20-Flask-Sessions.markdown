@@ -4,7 +4,7 @@ title:  "Flask Sessions"
 date:   2016-11-20 12:36:00
 categories: blog
 ---
-After watching about sessions variables in Professor Zacharski's video, I learned a lot about sessions variables. Here's the video about it:
+After watching about sessions variables in Professor Zacharski's video, I learned a lot about it. Here's the video about it:
 <html>
  <body>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c-gFZ71CjUw?list=PLuZfoSIficQvVN44F1emhKAF-1KIoRcok" frameborder="0" allowfullscreen></iframe>
