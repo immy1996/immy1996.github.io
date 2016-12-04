@@ -4,11 +4,17 @@ title:  "Flask Sessions"
 date:   2016-11-20 12:36:00
 categories: blog
 ---
+After watching about sessions variables in Professor Zacharski's video, I learned a lot about sessions variables. Here's the video about it:
+<html>
+ <body>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c-gFZ71CjUw?list=PLuZfoSIficQvVN44F1emhKAF-1KIoRcok" frameborder="0" allowfullscreen></iframe>
+ </body>
+</html>
 
-Session variables are stored onto the server. So they are useful in a way that if you want to keep a user logged in
-on your site or to personalize what each user sess while they are logged in. The way "cookies" work for websites
-is that they are just little pieces of information that websites use to track a user to where they are and see 
-their current "session" on a website.
+What session variables are is that it is stored onto the server. So they are useful in a way that if you want to
+keep a user logged in on your site or to personalize what each user sess while they are logged in. The way 
+"cookies" work for websites is that they are just little pieces of information that websites use to track 
+a user to where they are and see their current "session" on a website.
 
 Cookies have no expiration date, they die when the session ends. A session can end when you close the browser. Cookies
 can persist even when you close your browser. Sessions are good for tracking users. Session is defined as the data in 
@@ -18,7 +24,7 @@ in that session like this:
     session['firstName'] = firstName
     session['lastName'] = lastName
     
-So in order to use session variables, you need to start a session like this:
+So in order to use session variables, you need to start a session like this in your server.py file:
 
     from flask import Flask, session
     import os
