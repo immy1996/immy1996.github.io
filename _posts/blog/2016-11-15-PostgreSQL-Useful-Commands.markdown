@@ -4,7 +4,7 @@ title:  "PostgreSQL Useful Commands"
 date:   2016-11-15 01:10:00
 categories: blog
 ---
-Since now you know what is PostgreSQL and how to install it, you'll learn some helpful commands that can 
+You came to the right place where you'll learn some helpful commands that can 
 help you out when you're going to use PostgreSQL:
 <ul>
 <li>
