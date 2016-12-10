@@ -4,13 +4,6 @@ title:  "Flask Sessions"
 date:   2016-11-20 12:36:00
 categories: blog
 ---
-After watching about sessions variables in Professor Zacharski's video, I learned a lot about it. Here's the video about it:
-<html>
- <body>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c-gFZ71CjUw?list=PLuZfoSIficQvVN44F1emhKAF-1KIoRcok" frameborder="0" allowfullscreen></iframe>
- </body>
-</html>
-
 What session variables are is that it is stored onto the server. So they are useful in a way that if you want to
 keep a user logged in on your site or to personalize what each user sess while they are logged in. The way 
 "cookies" work for websites is that they are just little pieces of information that websites use to track 
