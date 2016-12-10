@@ -5,7 +5,7 @@ date:   2016-11-13 04:10:00
 categories: blog
 ---
 I've used Postgres a lot and learned it from my Computer Science 350 class (Applications of Databases). It is a popular 
-choice for many small and large projects and more companies are adopting PostgreSQL nown these days. So I just want to 
+choice for many small and large projects and more companies are adopting PostgreSQL now these days. So I just want to 
 give you a brief introduction about what PostgreSQL is.
 
 PostgreSQL is a powerful, open source object-relational database management system which implements the SQL querying language.
