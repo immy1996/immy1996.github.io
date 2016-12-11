@@ -103,5 +103,5 @@ If you want to put HTML code in an HTML file, but first you need to connect from
 
 This will allow you to change pages by selecting either one of those two tabs (Home/About me).
 
-Sources: <li>https://code.tutsplus.com/tutorials/an-introduction-to-pythons-flask-framework--net-28822</li>
-         <li>http://flask.pocoo.org/</li>
+Sources: -https://code.tutsplus.com/tutorials/an-introduction-to-pythons-flask-framework--net-28822
+         -http://flask.pocoo.org/
