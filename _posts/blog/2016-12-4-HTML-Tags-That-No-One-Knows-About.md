@@ -23,7 +23,7 @@ Here's my login authentication I used for my project:
 
 All I said above is that if login has failed for the user, then let "Invalid username or password!" appear on the page but let it move from right to left quick. 
 
-<marquee>Basically like this
+<marquee>Basically like this</marquee>
 
 Another interesting HTML tag that I approached to is the <mark> tag. What this will do is that it will basically highlight your text if you put it in the <mark>
 tag. An example is like this:
