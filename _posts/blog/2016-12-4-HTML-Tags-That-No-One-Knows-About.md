@@ -32,7 +32,5 @@ Which should give you your result similar to mine that I have below:
 
 Just wanted to share some of these HTML tags that I have learned recently! Hope you enjoyed this post!
 
-Sources: <ul> https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee </ul>
-         <ul> https://www.tutorialspoint.com/html/html_marquee_tag.htm </ul>
-         <ul> http://www.w3schools.com/tags/tag_mark.asp </ul>
+Sources: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee, https://www.tutorialspoint.com/html/html_marquee_tag.htm, http://www.w3schools.com/tags/tag_mark.asp
          
