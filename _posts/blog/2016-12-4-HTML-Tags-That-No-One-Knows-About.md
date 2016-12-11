@@ -25,8 +25,8 @@ All I said above is that if login has failed for the user, then let "Invalid use
 
 <marquee>Basically like this</marquee>
 
-Another interesting HTML tag that I approached to is the <mark> tag. What this will do is that it will basically highlight your text if you put it in the <mark>
-tag. An example is like this:
+Another interesting HTML tag that I approached to is the mark tag. What this will do is that it will basically <mark>highlight your text if you put it in the mark
+tag.</mark> Here's another example:
 
         `Hey guys! My name is Imran Ahmed and I LOVE the <mark>BOSTON CELTICS</mark>`
         
