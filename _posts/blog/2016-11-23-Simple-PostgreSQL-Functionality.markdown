@@ -80,3 +80,4 @@ Now let's say we want to remove a row from our table. Let's delete the row that 
 
     DELETE FROM registered WHERE age = 20;
 
+Source: http://www.tutorialspoint.com/postgresql/

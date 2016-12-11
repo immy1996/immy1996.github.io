@@ -25,4 +25,6 @@ In order to use postgresql, you'll need to login to the default account (client)
 After getting in, you can set a password via command line:
 `\password postgres`
 
-That's how you basically install postgres via command line! 
+That's how you basically install postgres via command line!
+
+Source: http://initd.org/psycopg/docs/

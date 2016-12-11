@@ -78,3 +78,4 @@ So we will use this function to send data back to Javascript side:
            console.log('Connected'); 
     });
 
+Source: https://flask-socketio.readthedocs.io/en/latest/

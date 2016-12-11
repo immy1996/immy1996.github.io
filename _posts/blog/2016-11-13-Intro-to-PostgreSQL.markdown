@@ -15,3 +15,5 @@ built products and solutions used PostgreSQL.
 To help understand better what is a relational database management system, it is defined as: a type of database management
 system (DBMS) that stores data in the form of related tables. It is a key component of many web sites and applications.
 They provide a structured way to store, organize, and access information.
+
+Source: https://www.postgresql.org/about/

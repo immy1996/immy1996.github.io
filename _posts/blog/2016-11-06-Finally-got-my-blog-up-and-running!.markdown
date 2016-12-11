@@ -67,3 +67,5 @@ put in `"messageyouwanttoputinhere"` will be displayed on the commit page of Git
 to set up a blog AND making your first blog post. 
 
 To check if your blog site has been published, just go to your repository, then click "Settings", go to the "GitHub Pages" section and you'll should see your blog has been published.
+
+Source: https://jekyllrb.com/docs/installation/

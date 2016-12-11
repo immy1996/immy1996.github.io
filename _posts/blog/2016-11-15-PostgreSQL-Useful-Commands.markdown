@@ -59,3 +59,5 @@ To show all the data in a table of your choice, just type this out:
 </li>
 
 </ul>
+
+Source: http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheatsheet.pdf

@@ -60,3 +60,5 @@ the next line after we made the cursor which allowed us to execute a query state
 executed a query statement that selects the information corresponding the username and password specifically by the user. We passed 
 the query that needed to be executed as an argument. The last line of code, we are fetching that particular result since it is 
 "<code>cur.fetchone()</code>" and that's storing it into the loginResults.
+
+Source: http://initd.org/psycopg/docs/

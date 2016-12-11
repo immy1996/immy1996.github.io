@@ -37,3 +37,5 @@ We can using a session variable value like this:
 The best way to delete a session variable is this:
 
     session.pop('name', None)
+
+Source: https://www.tutorialspoint.com/flask/flask_sessions.htm

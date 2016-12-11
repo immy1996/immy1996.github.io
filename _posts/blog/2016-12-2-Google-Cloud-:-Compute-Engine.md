@@ -52,3 +52,5 @@ Click on the "SSH" button and you can bring up your VM which should display like
 
 If you wanted to see more of the information about your instance, on the Compute Engine Home page, just click on the name of your instance and it'll bring up the page like this:
 <img src="/assets/img/InstanceInfo.jpg" alt="Instance Info Example" height="500" weight="500">
+
+Sources: https://console.cloud.google.com
