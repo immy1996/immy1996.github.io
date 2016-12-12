@@ -15,15 +15,11 @@ and such. I remembered about the following HTML marquee element that I learned w
 In simplistic terms, that tag is used for scrolling piece of text or image displayed either horizontally
 across or vertically down your web site page depending on the settings of your site.
 
-Here's my login authentication I used for my project:
-
+Here's my HTML login authentication code I used for my project if the user has a login error and the login error message will appear:
 
         <h3 style="color:#ff3333;"><center><marquee style="height:1;width:200" scrollamount="200" scrolldelay="500">Invalid username or password!</marquee></center></h3>
-            
-
-        hello5
         
-All I said above is that if login has failed for the user, then let "Invalid username or password!" appear on the page but let it move from right to left quick. 
+This will show the message "Invalud username or password!" and wil move it from right to left on the screen.
 
 <marquee>Basically like this</marquee>
 
