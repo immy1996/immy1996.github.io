@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "HTML Tags That No One Knows About"
+title:  "Some HTML Tags That No One Knows About"
 date:   2016-12-4 5:12:00
 categories: blog
 ---
-As I grew learning how to develop websites from my mom, that meant I learned from her about HTML. Even my mom taught
-me some HTML tags that no one doesn't even know about! So I want to share some of those tags in this blog post here
-and how I encountered it.
+As I grew learning how to develop websites from my mom, I learned from her all about HTML. My mother is a website designer.
+My mom even taught me some HTML tags that no one even knows about! So I want to share some of those tags in this blog post
+here and how I encountered it.
 
-So one day I was working on a project for a class of mine and one of my tasks was to handle to login authentication. 
-Then I was able to get the login error message to pop up if the login information was incorrect. So I wanted to not
-make it boring and such. I asked around and found out about the HTML marquee element.
+So one day I was working on a project for a class of mine and one of my tasks was to handle to login authentication. Then 
+I was able to get the login error message to pop up if the login information was incorrect. So I wanted to not make it boring
+and such. I remembered about the following HTML marquee element that I learned with my mother.
 
 In simplistic terms, that tag is used for scrolling piece of text or image displayed either horizontally
 across or vertically down your web site page depending on the settings of your site.
