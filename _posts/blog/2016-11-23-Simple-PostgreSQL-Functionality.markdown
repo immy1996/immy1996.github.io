@@ -4,11 +4,10 @@ title:  "Simple PostgreSQL Functionality"
 date:   2016-11-23 8:22:00
 categories: blog
 ---
-Let's say you don't know the simple PostgreSQL functionality like create a table, insert 
-values to a table, select a particular value from the database, or delete a particular value(s) in 
-PostgreSQL from your database, so you decided you want to learn somewhere on how to do that. 
-Well you came to the right place to learn it from where I have some good experience to teach you
-the simple PostgreSQL functionality.
+Let’s say you don’t know the simple PostgreSQL functionality like create a table, insert values to a
+table, select a particular value from the database, or delete a particular value(s) in PostgreSQL from
+your database, so you decided to learn somewhere on how to do that. Well you came to the right place 
+to learn it from where I have some good experience to teach you the simple PostgreSQL functionality
 
 So to create a database in PostgreSQL, you would type this command out:
     `CREATE DATABASE users;`
