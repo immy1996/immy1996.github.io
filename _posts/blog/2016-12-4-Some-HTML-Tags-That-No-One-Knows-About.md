@@ -16,11 +16,14 @@ In simplistic terms, that tag is used for scrolling piece of text or image displ
 across or vertically down your web site page depending on the settings of your site.
 
 Here's my login authentication I used for my project:
-    <code>{% if failed %}
+
+          {% if failed %}
+          
             <h3 style="color:#ff3333;"><center><marquee style="height:1;width:200" scrollamount="200" scrolldelay="500">Invalid username or password!</marquee></center></h3>
-          {% endif %}</code>
+            
+          {% endif %}
         
-        hello3
+        hello5
         
 All I said above is that if login has failed for the user, then let "Invalid username or password!" appear on the page but let it move from right to left quick. 
 
