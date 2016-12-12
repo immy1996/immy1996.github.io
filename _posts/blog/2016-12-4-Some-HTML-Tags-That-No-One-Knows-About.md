@@ -28,6 +28,8 @@ All I said above is that if login has failed for the user, then let "Invalid use
 Another interesting HTML tag that I approached to is the mark tag. What this will do is that it will basically <mark>highlight your text if you put it in the mark
 tag.</mark> Here's another example:
 
+Here's the code:
+
         `Hey guys! My name is Imran Ahmed and I LOVE the <mark>BOSTON CELTICS</mark>`
         
 Which should give you your result similar to mine that I have below:
