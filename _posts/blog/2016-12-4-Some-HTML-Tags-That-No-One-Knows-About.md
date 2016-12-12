@@ -21,6 +21,8 @@ Here's my login authentication I used for my project:
             <h3 style="color:#ff3333;"><center><marquee style="height:1;width:200" scrollamount="200" scrolldelay="500">Invalid username or password!</marquee></center></h3>
         {% endif %}
 
+        hello
+        
 All I said above is that if login has failed for the user, then let "Invalid username or password!" appear on the page but let it move from right to left quick. 
 
 <marquee>Basically like this</marquee>
