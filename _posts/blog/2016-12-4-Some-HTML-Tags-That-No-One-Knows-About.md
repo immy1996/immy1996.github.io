@@ -19,7 +19,7 @@ Here's my HTML login authentication code I used for my project if the user has a
 
         <h3 style="color:#ff3333;"><center><marquee style="height:1;width:200" scrollamount="200" scrolldelay="500">Invalid username or password!</marquee></center></h3>
         
-This will show the message "Invalud username or password!" and will move it from right to left on the screen.
+This will show the message "Invalid username or password!" and will move it from right to left on the screen.
 
 <marquee>Basically like this</marquee>
 
