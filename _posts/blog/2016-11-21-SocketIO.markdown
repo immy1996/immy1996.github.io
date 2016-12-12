@@ -4,7 +4,7 @@ title:  "SocketIO"
 date:   2016-11-21 2:12:00
 categories: blog
 ---
-As I learned about SocketIO, at first it seemed pretty confusing to me but as I look back at it, it makes a lot sense now.
+As I learned about SocketIO, at first it seemed pretty confusing to me but as I look back at it now, it makes a lot of sense.
 
 Flask can use SocketIO which is an AngularJS wrapper for controllers that can easily send data back and forth from the frontend through
 Javascript and the backend of it will receive the data. 
