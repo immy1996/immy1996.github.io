@@ -39,7 +39,7 @@ categories: blog
                 <img class="d-block w-100" src="/../PokeSearchimg/Register Account Error.png" alt="Third slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src=="/../PokeSearchimg/Register Page.png" alt="Second slide">
+                <img class="d-block w-100" src="/../PokeSearchimg/Register Page.png" alt="Second slide">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="/../PokeSearchimg/Search Page Part 1.png" alt="Third slide">
