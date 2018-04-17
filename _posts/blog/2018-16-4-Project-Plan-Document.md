@@ -6,6 +6,7 @@ categories: blog
 ---
 
 Course: Software Engineering (CPSC 430)
+
 Assignment: Project Plan Document
 
 Throughout my last semester, I've been taking Software Engineering. In this class, we were assigned into two types of groups (Requirements and Implementation) and we had to write four written documents throughout the semester for our groups.
