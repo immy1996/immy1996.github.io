@@ -15,7 +15,7 @@ One of the documents was the Project Plan Document. This document was written wi
 a description of the system/product (UMW Honors Web Application), clarify the requirements which our group will be focusing and implementing towards the system, and make an estimate of the amount
 of time required to complete the project.
 
-<b>Here is a link to see our full Project Plan Document: <a href="https://www.scribd.com/document/376557896/Project-Plan-Document-for-Honors-Program-Web-Application">Click here</a></b>
+<b>Here is a link to see our full Project Plan Document: <a href="https://www.scribd.com/document/376557896/Project-Plan-Document-for-Honors-Program-Web-Application" target="_blank">Click here</a></b>
 
 
 After working on this Project Plan Document, I learned a lot from it. One thing I learned was that it to estimate how long each requirement will take to be implemented beforehand.
