@@ -8,10 +8,10 @@ categories: blog
 Course: Software Engineering (CPSC 430)
 Assignment: Project Plan Document
 
-Throughout my last semester, I've been taking Software Engineering. In this class, we were assigned groups and we had to write three written documents throughout the semester.
+Throughout my last semester, I've been taking Software Engineering. In this class, we were assigned into two types of groups (Requirements and Implementation) and we had to write four written documents throughout the semester for our groups.
 
 
-One of the documents was the Project Plan Document. This document provides a detailed plan/schedule for our group to follow for the rest of the semester. This type of plan should provide
+One of the documents was the Project Plan Document. This document was written with our implementation group. This document provides a detailed plan/schedule for our group to follow for the rest of the semester. This type of plan should provide
 a description of the system/product (UMW Honors Web Application), clarify the requirements which our group will be focusing and implementing towards the system, and make an estimate of the amount
 of time required to complete the project.
 
