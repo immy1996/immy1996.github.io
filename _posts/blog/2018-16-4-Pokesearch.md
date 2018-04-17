@@ -4,28 +4,28 @@ title:  "Pokesearch"
 date:   2018-04-16 02:38:00
 categories: blog
 ---
-<u>JavaScript side</u>
+<u>IT WORKS</u>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="/../PokeSearchimg/Chat.png" alt="First slide">
-            </div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="/../PokeSearchimg/Chat.png" alt="First slide">
+        </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="/../PokeSearchimg/Home Page when Logged In.png" alt="Second slide">
             </div>
