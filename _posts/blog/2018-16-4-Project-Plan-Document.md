@@ -5,6 +5,9 @@ date:   2018-04-16 06:38:00
 categories: blog
 ---
 
+Course: Software Engineering (CPSC 430)
+Assignment: Project Plan Document
+
 Throughout my last semester, I've been taking Software Engineering. In this class, we were assigned groups and we had to write three written documents throughout the semester.
 
 
@@ -12,7 +15,7 @@ One of the documents was the Project Plan Document. This document provides a det
 a description of the system/product (UMW Honors Web Application), clarify the requirements which our group will be focusing and implementing towards the system, and make an estimate of the amount
 of time required to complete the project.
 
-Here is a link to see our full Project Plan Document: <a href="https://www.scribd.com/document/376557896/Project-Plan-Document-for-Honors-Program-Web-Application">Click here</a>
+<b>Here is a link to see our full Project Plan Document: <a href="https://www.scribd.com/document/376557896/Project-Plan-Document-for-Honors-Program-Web-Application">Click here</a></b>
 
 
 After working on this Project Plan Document, I learned a lot from it. One thing I learned was that it to estimate how long each requirement will take to be implemented beforehand.
