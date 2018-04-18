@@ -20,8 +20,8 @@ of time required to complete the project.
 
 
 After working on this Project Plan Document, I learned a lot from it. One thing I learned was that it to estimate how long each requirement will take to be implemented beforehand.
-By estimating how long each requirement will take to be implemented beforehand, you'll get an idea of when you should plan of doing each requirement during a certain time period.
-Also another thing I learned from it was to plan ahead and follow along with the plan. By not following the along with the plan, it'll delay us from finishing the system.
+By estimating how long each requirement will take to be implemented beforehand, we got an idea of when we should plan of doing each requirement during a certain time period.
+Also another thing I learned from it was to plan ahead and follow along with the plan. By not following the along with the plan, it would have delayed us from finishing the system.
 
 
 There are a couple things that I would do differently after working on this assignment. I would put down the requirements in the Project Plan Document and then check with our

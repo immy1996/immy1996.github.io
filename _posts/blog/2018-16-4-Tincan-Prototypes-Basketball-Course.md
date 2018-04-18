@@ -23,8 +23,7 @@ in through your Facebook account on my site, it'll automatically take your name 
 in the box before going to my course. The final assignment we had to do was to modify the progress reports and add visual graphs to it. We used
 the graphs from chart.js and implemented to the progress reports page.
 
-The languages I used to modify the site was JavaScript, HTML5, and CSS3.
-
+The languages I used to make my course and modify the site were JavaScript, HTML5, and CSS3.
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -80,9 +79,9 @@ The languages I used to modify the site was JavaScript, HTML5, and CSS3.
 
 There were lots of things that I learned from this project. I learned how to set up my own LRS and how to host a site through Amazon Web Services. 
 It was fun trying to code more in JavaScript which I learned a lot more about it. Using OAuth and implementing to our site was a great experience
-because for future web developing jobs I will at least have the knowledge to implement it to the site.
+because for future web developing jobs I will at least have the knowledge of how to implement it to the site.
 
-If I had the chance to start over again, there are a couple things I would do. I would first start doing the assignments early. Because it would save
+If I had the chance to start over again, there are a couple things I would do. I would first start doing the assignments early. Because it would have saved
 me a lot of time and I would have more time to work on the next assignments. From then, I would be able to finish the site early. The other thing 
-I would do was organize and make my site more appealing. If I had the chance again to start on my assignments early and if I finish my assignment early,
+I would do is to organize and make my site more appealing. If I had the chance again to start on my assignments early and when I finish my assignment early,
 I would take the time to make my site look more better and try to make it more captivating.

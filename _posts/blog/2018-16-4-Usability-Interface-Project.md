@@ -27,8 +27,9 @@ to the user interface prototype.
 
 After working on the Usability Interface Project, I learned a lot of things. One of it was grabbing the perspective of how another person would use our software and what software features would be important for them to use
 in certain cases. Another thing I learned was that I understood how a certain function should perform, interacted with, what it should do and not do after interviewing people about it. Another thing I learned was that 
-I got the idea of how to create a user interface for a certain feature based on the comments provided by people from what they saw of the image prototype given to them.
+I got the idea of how to create a user interface for a certain feature based on the comments provided by people from what they saw of the image prototype given to them or in general.
 
-I would do a couple things differently in my Usability Interface Project. One thing I would do differently is put more details needed in each of my imaginary user paragraph. I feel like I should have expanded more in each of the paragraphs I wrote
+I would do a couple things differently in my Usability Interface Project if I had the chance to do it again. One thing I would do differently is put more details needed in each of my imaginary user paragraph. I feel like 
+I should have expanded more in each of the paragraphs I wrote
 of each of the imaginary users. The other thing I would do differently is choose a different feature. The feature I chose was the login which was a really simple one. The last thing I would do differently is summarize the
 ideas into a single coherent explanation of how the features will work. The reason is that because when I submitted this project, I forgot to do that part.
